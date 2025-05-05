@@ -26,8 +26,7 @@ python3 kmers.py <path_to_fasta_file> <k>
 
 ### Example:
 
-```bash
-
+```
 python3 kmers.py /mnt/homes4celsrs/shared/439539/reads.fa 4
 ```
 This runs the script on a shared FASTA file and analyzes 4-mers.
@@ -36,8 +35,7 @@ This runs the script on a shared FASTA file and analyzes 4-mers.
 
 ## Output format
 
-```text
-
+```
 Kmer    Total   Next_A  Next_C  Next_G  Next_T
 AAAA    61264   15265   15010   15924   15065
 AAAC    61124   14859   15671   14910   15684
