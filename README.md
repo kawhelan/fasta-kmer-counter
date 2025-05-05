@@ -33,4 +33,13 @@ This runs the script on a shared FASTA file and analyzes 4-mers.
 
 ---
 
+## Output format
 
+```bash
+Kmer    Total   Next_A  Next_C  Next_G  Next_T
+AAAA    61264   15265   15010   15924   15065
+AAAC    61124   14859   15671   14910   15684
+...
+
+- Total = how many times the k-mer appeared
+- Next_X = how many times each base followed it
