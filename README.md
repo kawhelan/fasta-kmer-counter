@@ -1,6 +1,6 @@
 # FASTA K-mer Counter
 
-This Python script processes a DNA sequence from a FASTA file, extracts all possible k-mers of a given length, and records what nucleotide follows each one. 
+This Python script processes a DNA sequence from a FASTA file, extracts all possible k-mers of a given length, and records what nucleotide follows each one.   
 The output is a tab-delimited file summarizing total k-mer counts and the frequency of each possible base (A, C, G, T).
 
 ---
@@ -49,7 +49,7 @@ AAAC    61124   14859   15671   14910   15684
 
 ## Running the tests
 
-A separate test suite is included using `pytest`.
+A separate test suite is included using `pytest`.  
 To run all tests:
 
 ```
@@ -78,5 +78,5 @@ documentation.md   # Reflection questions and design summary
 
 ## For
 
-BIO 539: Big Data Analysis - Spring 2025
+BIO 539: Big Data Analysis - Spring 2025  
 University of Rhode Island
