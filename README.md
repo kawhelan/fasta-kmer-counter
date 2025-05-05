@@ -44,3 +44,24 @@ AAAC    61124   14859   15671   14910   15684
 
 - Total = how many times the k-mer appeared
 - Next_X = how many times each base followed it
+
+---
+
+## Running the tests
+
+A separate test suite is included using `pytest`.
+To run all tests:
+
+```bash
+pytest test_kmers.py
+```
+
+Tests cover:
+- FASTA parsing (`read_fasta`)
+- k-mer extraction and follower logic (`extract_kmers`)
+- Output formatting (`write_kmer_data`)
+- Edge cases (e.g., final k-mer, short sequences)
+
+---
+
+
