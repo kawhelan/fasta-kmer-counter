@@ -21,6 +21,16 @@ The output is a tab-delimited file summarizing total k-mer counts and the freque
 ### Command line:
 
 ```bash
+python3 kmers.py <path_to_fasta_file> <k>
+```
+
+### Example:
+
+```bash
 python3 kmers.py /mnt/homes4celsrs/shared/439539/reads.fa 4
 ```
- 
+This runs the script on a shared FASTA file and analyzes 4-mers.
+
+---
+
+
