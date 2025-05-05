@@ -16,8 +16,11 @@ The output is a tab-delimited file summarizing total k-mer counts and the freque
 
 ---
 
-## Example command
+## Usage
+
+### Command line:
 
 ```bash
 python3 kmers.py /mnt/homes4celsrs/shared/439539/reads.fa 4
+```
  
