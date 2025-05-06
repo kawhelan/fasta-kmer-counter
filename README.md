@@ -69,7 +69,6 @@ Tests cover:
 ```
 kmers.py           # Main script for k-mer counting
 test_kmers.py      # Unit tests (pytest)
-kmer_output_k4.txt # Example output (for k=4)
 README.md          # This file
 documentation.md   # Reflection questions and design summary
 ```
