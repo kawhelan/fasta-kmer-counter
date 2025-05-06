@@ -15,7 +15,7 @@ I chose `defaultdict` because it makes it easy to add new k-mers and update coun
 I handled two special situations:
 
 - **The last k-mer in the in the sequence** might not have a nucleotide that comes after it. I still count it, but don't try to record what follows. 
-- **Very short sequences** (shorter than the value of `k`) won't have any valid k-mers and the extraction loop won't run. In that case, the script returns an empty or minimal result without crashing. 
+- **Very short sequences** (shorter than the value of *k*) won't have any valid k-mers and the extraction loop won't run. In that case, the script returns an empty or minimal result without crashing. 
 
 ---
 
